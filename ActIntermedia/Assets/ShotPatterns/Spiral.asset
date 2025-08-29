@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c9e37a3e788e8e4daa18e2daf6006df, type: 3}
+  m_Name: Spiral
+  m_EditorClassIdentifier: Assembly-CSharp::SpiralShotPattern
+  RepetitionCount: 5
+  StartWait: 0
+  EndWait: 0
+  PatternSettings:
+  - NumberOfBullets: 5
+    CoolDownAfterShot: 0
+    BulletSpeed: 10
+    RotationPerShot: 0
+    SpiralArms: 0
+    ClockwiseRotation: 0
+    AngleOffset: 0
